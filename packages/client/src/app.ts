@@ -112,10 +112,6 @@ export default class App {
         this.continueWorlds.addEventListener('click', () => this.openScroll('load-character'));
         this.continueForget.addEventListener('click', () => this.forgotPassword());
 
-        this.about.addEventListener('click', () => this.openScroll('about'));
-        this.credits.addEventListener('click', () => this.openScroll('credits'));
-        this.resetPassword.addEventListener('click', () => this.openScroll('reset-password'));
-
         this.respawn.addEventListener('click', () => this.respawnCallback?.());
 
         this.parchment.addEventListener('click', () => {
